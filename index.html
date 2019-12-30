@@ -2,38 +2,54 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>智</title>
+		<title>智~</title>
+		<style type="text/css">
+			body{margin: 0;padding: 0;text-align: center;font-size: 16px;}
+			.th{width: 25%;}
+			a{text-decoration: none;color: black;font-size: 18px;}
+		</style>
 	</head>
-	<body style="margin: 0;padding: 0;text-align: center;font-size: 16px;">
+	<body>
 		<!-- 顶部 -->
 		<div style="height: 45px;line-height:45px;background-color: black;color: white;">
+			<span>欢迎来到智的GitHub</span>
 			<span>
-					欢迎来到智的GitHub,正在学习使用HTML创建一个网页
-			</span>
-			<span>
-				
-				<a style="text-decoration: none; color: white;" href="tencent://QQInterLive/?Cmd=2&Uin=632778173">加QQ好友</a>
+				<a style="text-decoration: none; color: white;" 
+				href="tencent://QQInterLive/?Cmd=2&Uin=632778173">加QQ好友</a>
 			</span>
 		</div>
-		<table style="width: 100%;" border="" cellspacing="0" cellpadding="">
-			<tr><!-- 学习 -->
-				<td style="width: 25%;">
-					<span>学习<br></span>
-					<a target="_blank" href="https://www.baidu.com/">百度一下,你就知道</a><br />
+		<!-- 分栏 -->
+		<table style="width: 100%;background-color:ghostwhite;" border="" cellspacing="0" cellpadding="">
+			<tr>
+				<th class="th">学习</th>
+				<th class="th">软件</th>
+				<th class="th">游戏</th>
+				<th class="th">表情包</th>
+			</tr>
+			<tr>
+				<!-- 学习 -->
+				<td>
+					<a href="https://www.baidu.com/">百度一下,你就知道</a><br>
+					
 				</td>
 				<!-- 软件 -->
-				<td style="width: 25%;">软件</td>
-					<a target="_blank" href=""></a><br />
-				<!-- 游戏 -->
-				<td style="width: 25%;">游戏</td>
-				<!-- 表情包 -->
-				<td style="width: 25%;">表情包<br />
-					<a target="_blank" href=""></a><br />
-					<a target="_blank" href="https://graph.baidu.com/thumb/1240817519,1089455946.jpg">HI</a>
+				<td>
+					<a href="http://www.bandisoft.com/bandizip/">Bandizip,</a>
+					<a href="http://www.yingdev.com/projects/wgestures">WGestures,</a>
 				</td>
+				<!-- 游戏 -->
+				<td>Data</td>
+				<!-- 表情包 -->
+				<td>Data</td>
 			</tr>
 		</table>
-		<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577534792661&di=afcdea6dac35285f384d0001e2a11041&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201810%2F21%2F20181021115713_syzce.thumb.700_0.jpg" />
-		
+		<!-- 超链接打开方式 -->
+		<script type="text/javascript">
+		var aLink=document.getElementsByTagName('a');
+		for(var i=0;i<aLink.length;i++)
+		{
+		    aLink[i].target='_blank';
+		}
+		</script>
 	</body>
 </html>
